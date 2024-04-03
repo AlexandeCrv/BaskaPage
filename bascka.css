@@ -1,0 +1,64 @@
+body{
+    background-image: url(pexels-markus-spiske-1752757.jpg);
+    background-size: cover;
+}
+
+
+h1{
+    color: white;
+}
+#imgl{
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    
+}
+p{
+    color: white;
+}
+#title{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    width: 300px;
+    margin-left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    
+}
+
+#descrição{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    width: 300px;
+    margin-left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    
+}
+
+.botoes{
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    min-height: 100vh;
+}
+
+.botoes .butom{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+
+}
+
+
+
+
